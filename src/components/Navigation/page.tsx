@@ -8,6 +8,7 @@ import {
 } from '@heroicons/react/24/outline';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import { Fragment, useState } from 'react';
+import Image from 'next/image';
 
 const navigation = {
   categories: [
@@ -289,7 +290,7 @@ function Navigation() {
                               className="group relative text-sm"
                             >
                               <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
-                                <img
+                                <Image
                                   src={item.imageSrc}
                                   alt={item.imageAlt}
                                   className="object-cover object-center"
@@ -418,7 +419,7 @@ function Navigation() {
               <div className="ml-4 flex lg:ml-0">
                 <a href="#">
                   <span className="sr-only">Your Company</span>
-                  <img
+                  <Image
                     className="h-8 w-auto"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                     alt=""
@@ -472,7 +473,7 @@ function Navigation() {
                                           className="group relative text-base sm:text-sm"
                                         >
                                           <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
-                                            <img
+                                            <Image
                                               src={item.imageSrc}
                                               alt={item.imageAlt}
                                               className="object-cover object-center"

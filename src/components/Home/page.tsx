@@ -1,8 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import HomeProduct from './HomeProduct';
-import Test from './Test';
 
 function HomePage() {
   return (
@@ -17,12 +15,6 @@ function HomePage() {
       </div>
 
       <div className="m-6">
-        <div className="">
-          <Image
-            
-          />
-          
-        </div>
       </div>
       {/* <div className="HomeImg1">
         

@@ -1,8 +1,6 @@
 import Image from 'next/image';
 
-type Props = {};
-
-const Test = (props: Props) => {
+const Test = () => {
   return (
     <div className="flex flex-row">
       <div className="flex flex-col justify-center items-center">
